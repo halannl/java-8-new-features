@@ -19,7 +19,7 @@ public class LambdaExpressionsExplanation {
 	  	i -> i*i;
 	  
 	  	You can simplify the whole method declaration with simply the parameter name,
-	  	and avoid parenthesis in case of a single parameter. 
+	  	and avoid argument types and parenthesis in case of a single parameter. 
 	  	And the return statement can be abstracted by the JVM according to the context. 
 	  	In case of one single statement in the method body, you can avoid using curly brackets.
 	  	Now let's build a more complex method to clarify:
